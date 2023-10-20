@@ -33,10 +33,7 @@ public class taxes {
             tax = mTax(salary - 44999) + sconst + mconst + lconst;
             stringTax(tax, salary - tax);
         }
-
-
     }
-
     public static double sTax(double n){
         return n*0.1;
     }
